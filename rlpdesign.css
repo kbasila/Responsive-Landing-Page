@@ -1,0 +1,461 @@
+  body{
+  background-image: url('mybackground.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  }
+  
+ .about {
+    position: relative;
+    background: url("mycafe.jpeg") no-repeat top center/cover;
+    border-radius: 150px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin: 2rem 0;
+  }
+  
+ .about h1{
+   font-size: 5em;
+   color: white;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   text-shadow: 10px 10px 10px violet;
+ }
+ 
+.wrapper{
+  min-height: 1000px;
+  width: 101%;
+ }
+ 
+ .nav-item {
+   margin-left: 15px;
+   font-size:20px;
+  }
+
+ input[type="button"] {
+   width: 30%;
+   text-transform: uppercase;
+   padding: 40px 40px;
+   background-color: hotpink;
+   color: black;
+   font-size: 30px;
+   font-weight: bold;
+   border-radius: 20px;
+   border: 20px solid dashed;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+ 
+ .socialmedia{
+   height: 1000px;
+   width: 101%;
+   font-size: 30px;
+   font-family: 'Times New Roman', Times, serif;
+ }
+ 
+ p{
+   padding-right: 20px;
+   font-size: 30px;
+   font-family: 'Times New Roman', Times, serif;
+   text-indent: 2em;
+ }
+ 
+ .head{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: italic;
+  width: 100%;
+  min-height: 200px;
+  text-align: center;
+  font-size: 30px;
+  }
+  
+ 
+ .head img{
+   border-radius: 200px;
+ }
+ 
+.details{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 100%;
+  min-height: 600px;
+ }
+    
+ .content{
+   width: 100%;
+   text-align: center;
+   padding-top: 30px;
+   padding-left: 20px;
+   min-height: 1400px;
+   border-image: 50px;
+ }
+ 
+ .centertext{
+   text-align: center;
+   font-size: 50px;
+   font-family: 'Times New Roman', Times, serif;
+   
+  
+ 
+ }
+ 
+.centertext1{
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Times New Roman', Times, serif;
+  border: 10px dashed;
+  border-radius: 100px;
+  padding-right: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 50px;
+}
+
+
+  .centertext2{
+   font-size: 30px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+    
+.application{
+  border: 50px;
+}
+
+.application img{
+  border-radius: 1000px;
+}
+
+/* MAVIGATION CSS*/
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  align-items: center;
+  display: flex;
+ 
+}
+
+li{
+  float: left;
+}
+
+li a {
+  display: block;
+  border-style: solid;
+  
+  border-radius: 70px;
+  color: black;
+  padding: 20px 30px;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+li a:hover {
+  background-color: violet;
+  color: white;
+  text-align: center;
+
+}
+
+.active {
+  color: antiquewhite;
+}
+
+li a.current {
+  background-color: green;
+}
+
+/* MENU CSS*/
+.stars-gallery {
+  display: grid;
+  border-radius: 50px;
+  box-shadow: 0 10px 20px mediumvioletred;
+  transition: all 0.4s;
+  padding: 10px;
+  margin: 10px;
+}
+
+@media(max-width: 680px; ) {
+  .stars-gallery {
+    width: auto;
+    max-width: 100%;
+    min-width: 20rem;
+    margin: 1.5rem auto;
+    height: auto;
+  }
+}
+
+.stars-gallery img{
+  width: 90%;
+  max-width: 400px;
+  border-radius: 30px;
+}
+
+.stars-gallery span{
+  text-align: center;
+  font-size: 30px;
+}
+
+.stars-gallery b{
+  text-align: center;
+  font-size: 40px;
+  text-shadow: 10px 20px 30px darkviolet;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+.stars-gallery:hover{
+  transform: scale(0.7);
+  box-shadow: 0 20em 40em darkviolet;
+}
+
+/* BUTTONS CSS*/
+.sub {
+  margin-top: 2rem;
+}
+
+.sub h3 {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+}
+
+.sub h4{
+  text-align: center;
+  font-size: 30px;
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* ABOUT US CSS*/
+.socialmedia {
+  text-align: center;
+  margin: 2rem;
+}
+
+.socialmedia a{
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.aboutpurple{
+  box-shadow: 10px darkviolet;
+  border: 25px solid palevioletred;
+  margin: 10px;
+  padding: 50px;
+  
+}
+
+.aboutpurple p{
+  text-align: center;
+  text-shadow: 0px 0px 30px hotpink;
+  text-transform: uppercase;
+  font-size: 50px;
+  border: 10px dashed;
+  border-radius: 100px;
+  padding-right: 100px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  
+}
+
+.aboutpurple h2{
+  text-align: justify;
+  font-size: 30px;
+  text-indent: 5em;
+}
+
+
+/*ORDER FORM CSS*/
+form {
+  text-align: center;
+  margin: 0.4rem 2rem;
+}
+
+.cname-sub {
+  padding: 20px;
+  border: 5px solid black;
+  border-radius: 15px;
+  box-sizing: 70px;
+}
+
+.corder-sub {
+  padding: 20px;
+  border: 5px solid black;
+  border-radius: 15px;
+  box-sizing: 70px;
+}
+
+.order-btn {
+  background-color: violet;
+  color: #fff;
+  padding: 10px;
+  margin: 10px;
+  border: solid;
+  font-size: 30px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.order-btn:hover {
+  background-color: #095cf7;
+}
+
+
+/* BLOGS CSS*/
+.blogspurple {
+  box-shadow: 10px darkviolet;
+  border: 25px solid palevioletred;
+  margin: 10px;
+  padding: 50px;
+}
+
+.blogspurple p{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 35px;
+  border: 10px dashed;
+  border-radius: 100px;
+  padding-right: 100px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+}
+
+.blogspurple h4 {
+  text-align: justify;
+  font-size: 30px;
+  text-indent: 5em;
+}
+
+.blogspurple h3{
+  font-size: 30px;
+}
+
+.designblogs{
+  display: grid;
+  border-radius: 50px;
+  box-shadow: 0 10px 20px mediumvioletred;
+  transition: all 0.4s;
+  padding: 10px;
+  margin: 10px;
+}
+
+@media(max-width: 680px; ) {
+  .designblogs {
+    width: auto;
+    max-width: 100%;
+    min-width: 20rem;
+    margin: 1.5rem auto;
+    height: auto;
+  }
+}
+.designblogs h3{
+  text-align: center;
+  font-size: 35px;
+}
+
+.designblogs h2{
+  text-align: center;
+  font-size: 30px;
+}
+
+.designblogs:hover{
+  transform: scale(0.7);
+  box-shadow: 0 20em 40em deeppink;
+}
+
+
+/* ANY COMMENTS CSS*/
+.comment-sub {
+  padding: 20px;
+  border: 5px solid black;
+  border-radius: 15px;
+  box-sizing: 80px;
+}
+
+.send-btn {
+  background-color: violet;
+  color: #fff;
+  padding: 10px;
+  margin: 10px;
+  font-size: 30px;
+  border: solid;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.send-btn:hover {
+  background-color: #095cf7;
+}
+
+/*ABOUT US CSS*/
+.socialpurple{
+  box-shadow: 10px darkviolet;
+  border: 25px solid palevioletred;
+  margin: 10px;
+  padding: 50px;
+  }
+
+.socialpurple b{
+  font-size: 30px;
+}
+
+/*YUNG PINAGLALAGYAN NA BOX NA PINK*/
+.purplecenter{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 10px dashed;
+    border-radius: 100px;
+}
+
+/*ANY QUESTION CSS*/
+.question-sub {
+  padding: 20px;
+  border: 5px solid black;
+  border-radius: 15px;
+  box-sizing: 80px;
+}
+
+.question-btn {
+  background-color: violet;
+  color: #fff;
+  padding: 10px;
+  margin: 10px;
+  font-size: 30px;
+  border: solid;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.question-btn:hover {
+  background-color: #095cf7;
+}
+
+/*SUGGESTIONS CSS*/
+.suggest-sub {
+  padding: 20px;
+  border: 5px solid black;
+  border-radius: 15px;
+  box-sizing: 80px;
+}
+
+.suggest-btn {
+  background-color: violet;
+  color: #fff;
+  padding: 10px;
+  margin: 10px;
+  font-size: 30px;
+  border: solid;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.suggest-btn:hover {
+  background-color: #095cf7;
+}
+
